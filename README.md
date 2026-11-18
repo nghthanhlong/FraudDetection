@@ -8,11 +8,11 @@
 - `test.csv` là dữ liệu cần dự đoán và phải có cột `id`.
 - `sample_submission.csv` dùng để đối chiếu schema submission nếu cần.
 
-Cài dependency và chạy validation:
+Cài dependency và mở notebook Stage 3:
 
 ```powershell
 python -m pip install -r requirements.txt
-python .\model_validation.py --data-dir .\data
+python -m jupyter notebook .\notebooks\02_feature_engineering_validation.ipynb
 ```
 
 Pipeline thực hiện:
@@ -30,3 +30,6 @@ Pipeline thực hiện:
 
 File [notebooks/01_eda.ipynb](notebooks/01_eda.ipynb) dùng để kiểm tra schema,
 missing values, mất cân bằng lớp và các dấu hiệu fraud trước khi train.
+
+File [notebooks/02_feature_engineering_validation.ipynb](notebooks/02_feature_engineering_validation.ipynb)
+chứa toàn bộ feature engineering, encoding, benchmark mất cân bằng và tạo submission.
