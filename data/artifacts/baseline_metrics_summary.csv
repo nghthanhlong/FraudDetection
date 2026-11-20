@@ -1,0 +1,6 @@
+Model,PR-AUC (valid),PR-AUC (test),ROC-AUC (test),F1@0.5 (test),Recall@P=0.5 (test),Recall@P=0.8 (test),Brier (test)
+Dummy (Stratified),0.0164,0.0165,0.5031,0.0226,0.0,0.0,0.0322
+Logistic Regression,0.3134,0.3369,0.9116,0.1442,0.2709,0.1006,0.1178
+XGBoost (Tree Baseline),0.3271,0.3549,0.9158,0.1593,0.289,0.0971,0.0995
+Random Forest,0.2257,0.247,0.9017,0.2298,0.143,0.0,0.0704
+LightGBM,0.33,0.3605,0.9187,0.2688,0.2831,0.1099,0.0127

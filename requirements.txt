@@ -8,3 +8,6 @@ ipykernel
 overrides>=5.0
 matplotlib
 seaborn
+joblib
+xgboost>=2.0.0
+lightgbm>=4.0.0,<5.0.0
