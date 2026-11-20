@@ -1,2 +1,25 @@
-/data/*.csv
-/.venv/
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Trained models
+*.joblib
+*.pkl
+*.pickle
+
+# OS files
+.DS_Store
+Thumbs.db
