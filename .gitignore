@@ -1,25 +1,33 @@
-# Python cache
-__pycache__/
-*.py[cod]
+# Dataset
+data/
 
-# Jupyter
-.ipynb_checkpoints/
+# Submission outputs
+submission/
+submissions/
 
-# Virtual environments
+# Trained model artifacts
+artifacts/
+*.pkl
+*.joblib
+*.cbm
+
+# Python virtual environment
 .venv/
 venv/
-env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
 
 # Environment variables
 .env
-.env.*
-!.env.example
 
-# Trained models
-*.joblib
-*.pkl
-*.pickle
+# Temporary files
+*.log
 
-# OS files
+# OS-generated files
 .DS_Store
 Thumbs.db
