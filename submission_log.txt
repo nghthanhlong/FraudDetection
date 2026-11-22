@@ -1,3 +1,4 @@
 1st submit (0.91692): using LightGBM baseline
 2nd submit (0.91654): using XGBoost (ensemble but still choose XGBoost due to better PR-AUC)
 3rd submit (0.91939): using 5-fold ensemble, each fold uses LightGBM and XGBoost, taking average (58% LGB, 42% XGB)
+4nd submit (0.94470): re-feature, using 32 features in 5 categories, ensemble with 0.47 LGB and 0.53 XGB, after that taking average of 5 OOF prediction
